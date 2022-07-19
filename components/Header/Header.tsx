@@ -28,6 +28,7 @@ const Header: React.FC = () => {
       >
         <Row>
           <Col className="my-auto">
+            <h1 className="underline">Tailwind working</h1>
             <Link href="/">
               <a>
                 <img className="logo" src="/revoke.svg" alt="revoke.cash logo" />

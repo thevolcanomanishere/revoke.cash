@@ -5,6 +5,7 @@ import type { AppProps } from 'next/app';
 import Script from 'next/script';
 import { Container } from 'react-bootstrap';
 import { EthereumProvider } from 'utils/hooks/useEthereum';
+import '../styles/globals.css';
 import '../styles/index.scss';
 
 const SafeHydrate = ({ children }) => {
